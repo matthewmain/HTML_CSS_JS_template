@@ -11,6 +11,16 @@ function scaleToWindow() {
   }
 }
 
-scaleToWindow();
-
 window.addEventListener('resize', scaleToWindow);
+
+
+
+$( ()=> {
+  
+  scaleToWindow();
+
+});
+
+
+
+
